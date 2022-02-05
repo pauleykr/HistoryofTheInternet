@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<meta charset="utf-8">
+  		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>IMS 257</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="css/lightbox.css" />
+
+	        <script src="js/vendor/jquery-1.8.1.min.js"></script>
+
+			<script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js" type="text/javascript"></script>
+			<script src="js/lightbox.js" type="text/javascript" charset="utf-8"></script>
+
+	        <script src="js/plugins.js"></script>
+	        <script src="js/main.js"></script>
+    </head>
+
+
+	<body>
+		<div class="title2">
+			<h1>The Evolving Internet</h1>
+		</div>
+		
+		<nav class="nonMobile">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="memex.html">Memex</a></li>
+				<li><a href="Nelson.html">Ted Nelson</a></li>
+				<li class="selected"><a href="Doug.html">Doug Engelbart</a></li>
+				<li><a href="ARPANET.html">ARPANET/DARPANET</a></li>
+				<li><a href="Lee.html">Tim Berners Lee</a></li>
+				<li><a href="Httpdomainip.html">Http/domain/IP</a></li>
+				<li><a href="browserwars.html">Browser wars</a></li>
+				<li><a href="bubbleburst.html">Bubble burst</a></li>
+				<li><a href="interactiveweb.html">More interactive web</a></li>
+				<li><a href="iOS.html">iOS</a></li>
+				<li><a href="W3CWHATWAG.html">W3C/WHATWAG</a></li>
+				<li><a href="API.html">API</a></li>
+	 		</ul>
+		</nav>
+		
+		<hr />
+
+		<nav class="mobile" onclick="javascript: $(this).toggleClass('selected');" />
+			<div id="title5">
+				Nav
+			</div>
+
+			<ul class="mobile">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="memex.html">Memex</a></li>
+				<li><a href="Nelson.html">Ted Nelson</a></li>
+				<li class="selected"><a href="Doug.html">Doug Engelbart</a></li>
+				<li><a href="ARPANET.html">ARPANET/DARPANET</a></li>
+				<li><a href="Lee.html">Tim Berners Lee</a></li>
+				<li><a href="Httpdomainip.html">Http/domain/IP</a></li>
+				<li><a href="browserwars.html">Browser wars</a></li>
+				<li><a href="bubbleburst.html">Bubble burst</a></li>
+				<li><a href="interactiveweb.html">More interactive web</a></li>
+				<li><a href="iOS.html">iOS</a></li>
+				<li><a href="W3CWHATWAG.html">W3C/WHATWAG</a></li>
+				<li><a href="API.html">API</a></li>
+	 		</ul>
+				
+			<hr />
+			
+		</nav>
+
+	<div class="title3">
+		<h2>Doug Engelbart</h2>
+	</div>
+	<div id="paragraph">
+	
+		<p>
+		<span onclick="showDefinition('doug', this);">Doug Engelbart</span> was another scientist who was inspired by the Memex.  Doug Engelbart and his team of researchers developed many interface elements such as bitmaps, the mouse, collaborative tools, hypertext, and other early graphics.  He patented one of these developments the mouse.  He named it as such because it had a wire "tail" running behind it which connected the mouse to the computer.  The mouse which controlled the movements of the computer along the x and y axis became very important in making the computer user friendly.  In the 1960's Engelbart also created the <span onclick="showDefinition('nls', this);">NLS or "oN-line System"</span>.  The NLS enabled users to use hypertext links; the mouse and raster scan video monitors, access information by relevance, screen windowing, presentation programs, and many other features now in modern computers.  The NLS accomplished many first that gave users greater control and created a richer experience for the trained user.  While there were many new features to the NLS it eventually experienced a downfall due to a lack of user friendliness.  For example, the NLS depended on a rigid hierarchical structure and did not utilize a point and click system; but rather, relied on cryptic mnemonic codes that users had to memorize.  Another example was that if a user did not have a keyboard they had to learn to use a <span onclick="showDefinition('binary', this);">5-bit binary code</span> which is not easy for the average person to learn.  Overall the NLS had a very high learning curve that was not friendly to the masses.   The NLS project was funded by the Defense Advanced Research Project Agency, NASA, and the U.S Air force.  The Defense Advanced Research Project Agency had previously been involved in the creation of the DARPANET and the ARPANET.
+		</p>
+		</div>
+
+		<div id="defineBox">
+			<span id="defineCloseButton" onclick="hideDefinition();">X</span>
+			<h4 id="defineWord">The Word That Should Be Defined</h4>
+			<p id="definition">
+				That defines it
+			</p>
+		</div>
+	
+		<a href="img/mouse.jpg" rel="lightbox" title="Doug Engelbart"><img src='img/mouse.jpg' width="240px" /></a>
+	
+    </body>
+</html>
